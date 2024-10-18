@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppin',sans-serif;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+
+.container{
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.container .title{
+  display: flex;
+  font-size: 25px;
+  font-weight: 700px;
+  justify-content: center;
+}
+
+.container form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+  font-weight: 600;
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+  display: flex;
+  font-weight: 500px;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+}
+
+form .gender-details .gender-title{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+form .gender-details .category{
+  width: 80%;
+}
+
+form .btn{
+  height: 45px;
+  margin: 20px 0 0 0;
+}
+
+form .btn #cancle{
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  background: tomato;
+  cursor: pointer;
+}
+
+form .btn #submit{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  cursor: pointer;
+}
